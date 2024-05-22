@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "nombre": "Celular",
+      "precio": "19.99",
+      "imagen": "https://static-mpm-optimized.s3.eu-west-2.amazonaws.com/707d4de3-a195-4a46-a8fd-7695c8b1cd6d_large.png",
+      "id": 1
+    },
+    {
+      "nombre": "Reloj",
+      "precio": "298.59",
+      "imagen": "https://shasa.com/cdn/shop/files/2302339047_1_48db4c74-3e51-4044-b054-84e3caf4570b.jpg?v=1709938487",
+      "id": 2
+    },
+    {
+      "nombre": "Videojuego",
+      "precio": "15.69",
+      "imagen": "https://marroba.com/cdn/shop/files/consola-sup-con-400-juegos-v01.webp?v=1699623172",
+      "id": 3
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "precio": "5990.99",
+      "imagen": "https://www.vgstores.ng/wp-content/uploads/2021/12/Nintendo-Switch-OLED-400x600-1.webp",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nombre": "Teclado",
+      "precio": "25.00",
+      "imagen": "https://cdn1.coppel.com/images/catalog/mkp/4016/3000/40161184-1.jpg"
+    }
+  ]
+}

@@ -20,8 +20,8 @@
                     <div class="div__productos">
                         <div class="div__productos-titulo"><h1>Mis Productos:</h1></div>
                         <div class="div__productos-contenedor">
-                            <ul>
-                                <li>
+                            <ul data-lista>
+                                <!--<li>
                                     <div class="div__card">
                                         <div class="div__card-container">
                                             <div class="div__card-image">
@@ -132,23 +132,25 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>
+                                </li>-->
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section class="section__agregar">
                     <div class="div__formulario">
-                        <div class="div__formulario-titulo"><h1>Agregar Producto:</h1></div>
-                        <div class="div__formulario-contenedor">
-                            <input type="text" id="form-nombre" class="form-input" placeholder="nombre..." />
-                            <input type="text" id="form-precio" class="form-input" placeholder="precio..." />
-                            <input type="text" id="form-imagen" class="form-input" placeholder="imagen..." />
-                            <div class="form-container-buttons">
-                                <button type="button" class="form-button">Enviar</button>
-                                <button type="button" class="form-button-2">Limpiar</button>
+                        <form data-formulario>
+                            <div class="div__formulario-titulo"><h1>Agregar Producto:</h1></div>
+                            <div class="div__formulario-contenedor">
+                                <input type="text" id="form-nombre" class="form-input" placeholder="nombre..." data-nombre />
+                                <input type="text" id="form-precio" class="form-input" placeholder="precio..." data-precio />
+                                <input type="text" id="form-imagen" class="form-input" placeholder="imagen..." data-imagen />
+                                <div class="form-container-buttons">
+                                    <button type="submit" class="form-button">Enviar</button>
+                                    <button type="button" class="form-button-2">Limpiar</button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </section>
             </section>
@@ -159,5 +161,8 @@
             <div>Desarrollado por: Rafael Pardo</div>
             <div>Alura Latam 2024</div>
         </footer>
+        <script src="./js/getProductos.js" type="module"></script>
+        <script src="./js/postProducto.js" type="module"></script>
+        <script src="./js/deleteProducto.js" type="module"></script>
     </body>
 </html>
